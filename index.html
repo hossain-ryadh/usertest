@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <body>
+      <div class="header-container">
+        <header>
+          <h1>Welcome to Goal Tracker</h1>
+          <p>Add your Goal list here.</p>
+        </header>
+      </div>
+
+      <div class="container">
+
+        <p>
+          <label for="new-task">Add Goal</label><input id="new-task" type="text"><button>Add</button>
+        </p>
+
+
+        <div class="listItems">
+        <h3>Goal</h3>
+        <ul id="incomplete-tasks">
+          <li><input type="checkbox"><label>goal example</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+          <li class="editMode"><input type="checkbox"><label>Goal example</label><input type="text" value="Go Shopping"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        </ul>
+
+
+
+        <h3>Completed</h3>
+        <ul id="completed-tasks">
+          <li><input type="checkbox" checked><label>Completed goal example</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        </ul>
+        </div>
+      </div>
+
+      <footer>A J M HOSSAIN RYADH </footer>
+
+  </body>
+  <script src="jv.js">
+
+  </script>
+</html>
